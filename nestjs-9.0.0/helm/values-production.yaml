@@ -1,0 +1,14 @@
+#volumeMounts:
+#  - name: volume-secret-name
+#    mountPath: /etc/config/secret/xxxx.txt
+#    subPath: xxxx.txt
+#
+#volumes: true
+#volumesSecret:
+#  - name: volume-secret-name
+#    secret:
+#        secretName: secret-volume
+#
+#envFrom:
+#  secrets:
+#    - secret-name
