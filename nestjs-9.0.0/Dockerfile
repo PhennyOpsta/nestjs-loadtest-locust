@@ -50,5 +50,4 @@ COPY --chown=node:node --from=build /usr/source/dist ./dist
 
 # Start the server using the production build
 CMD [ "node", "/dist/src/main.js" ]
-# CMD ["npm", "run", "start:dev"]
 
