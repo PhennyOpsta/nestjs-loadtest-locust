@@ -36,3 +36,5 @@ lerna-debug.log*
 
 
 */locust-loadtest/__pycache__
+
+locust-loadtest/__pycache__/
